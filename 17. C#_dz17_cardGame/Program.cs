@@ -31,8 +31,6 @@ namespace _17.C__dz17_cardGame
                     Console.Write("Введите количество раундов(не более 100): ");
                     round = Convert.ToInt32 (Console.ReadLine());
 					newgame.game(round);
-
-
 				}
 				if (index == 2)
 				{
